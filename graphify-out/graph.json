@@ -1,0 +1,219 @@
+{
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "failed_sources": [],
+  "nodes": [
+    {
+      "id": "tests_test_site",
+      "label": "test_site.py",
+      "file_type": "code",
+      "source_file": "tests/test_site.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_site_sitetest",
+      "label": "SiteTest",
+      "file_type": "code",
+      "source_file": "tests/test_site.py",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_site_sitetest_test_site_has_visible_marker",
+      "label": ".test_site_has_visible_marker()",
+      "file_type": "code",
+      "source_file": "tests/test_site.py",
+      "source_location": "L6",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "planning_project",
+      "label": "PROJECT.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "planning_project_workbridge_web_ci_cd_probe",
+      "label": "WorkBridge Web CI/CD probe",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "planning_codebase_architecture",
+      "label": "ARCHITECTURE.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "planning_codebase_architecture_architecture",
+      "label": "Architecture",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "planning_codebase_testing",
+      "label": "TESTING.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "planning_codebase_testing_testing",
+      "label": "Testing",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents",
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_probe_scope",
+      "label": "Probe scope",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_workbridge_web_ci_cd_probe",
+      "label": "WorkBridge Web CI/CD probe",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "tests_test_site",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_site.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_site",
+      "target": "unittest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_site.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_site",
+      "target": "tests_test_site_sitetest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_site.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_site_sitetest",
+      "target": "tests_test_site_sitetest_test_site_has_visible_marker",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_site.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "planning_project",
+      "target": "planning_project_workbridge_web_ci_cd_probe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "planning_codebase_architecture",
+      "target": "planning_codebase_architecture_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "planning_codebase_testing",
+      "target": "planning_codebase_testing_testing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "agents",
+      "target": "agents_probe_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "readme_workbridge_web_ci_cd_probe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "directed": false
+}

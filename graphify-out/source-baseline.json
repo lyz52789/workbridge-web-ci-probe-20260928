@@ -1,0 +1,17 @@
+{
+  "scan_root": "/private/tmp/workbridge-web-ci-probe-20260928",
+  "source_git_sha": "6b504ba76f99be9b03416c113886282c5fdc2689",
+  "scan_file_count": 8,
+  "file_sha256": {
+    "tests/test_site.py": "5469660fc24695a63c1c0641d6f8014b5130606970decdc3b66d6fe8b8c4c8e2",
+    ".github/workflows/ci.yml": "2acbe516bcad72454f9f48b7be6bc9d1f79dfef2bbf085c26c89487f0a41e24e",
+    ".planning/PROJECT.md": "405c7c786cde0624a5b11540c27cca2f7f7dcccb84ccf4e6d416960456d7abd9",
+    ".planning/codebase/ARCHITECTURE.md": "4093e2a10a2e37f1a3eca3e3f588e09278b95f659e29caf07de9569088b8d925",
+    ".planning/codebase/TESTING.md": "403da859f0494c194557d9687796475b2e6cc41ce8c5f87e2b3c175f3b64dd09",
+    "AGENTS.md": "09522d3de141c05b24b6621848483b17abf077431d18ec510661ff59ce1f9f7b",
+    "README.md": "a6152da61f911e74fa8bf376e88beed789938c9f4e9382867e6bae60eb91fab9",
+    "site/index.html": "01213319cdf830bb5d9ccdfc02a19c37197ce6ec23942c64fc092de3975ac164"
+  },
+  "graph_nodes": 13,
+  "graph_edges": 0
+}
